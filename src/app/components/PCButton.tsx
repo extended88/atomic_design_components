@@ -2,13 +2,13 @@
 
 import React from 'react'
 
-interface Button1Props {
+type Button1Props = {
     label: string
     text: string
     disabled: boolean
 }
 
-const Button1: React.FC<Button1Props> = ({ label, text, disabled }) => {
+const PCButton: React.FC<Button1Props> = ({ label, text, disabled }) => {
 
     const handleClick = () => {
         alert('Button clicked!')
@@ -26,4 +26,4 @@ const Button1: React.FC<Button1Props> = ({ label, text, disabled }) => {
     )
 }
 
-export default Button1
+export default PCButton

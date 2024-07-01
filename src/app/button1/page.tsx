@@ -1,15 +1,11 @@
 import React from 'react'
-import PCBotton from '../components/PCBotton'
+import PCButton from '../components/PCButton'
 
 const Button1 = () => {
 
-    const handleClick = () => {
-        alert('Button clicked!')
-    }
-
     return (
         <>
-            <PCBotton
+            <PCButton
                 label="Click me"
                 text="Submit"
                 disabled={false}
